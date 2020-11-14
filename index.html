@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script type="text/javascript" src="js/estadisticas.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	 <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.load("current", {'packages':["corechart"]});
+  </script>
+</head>
+
+
+<body onload="mostrar()">
+
+
+
+<div  id="banner" class="container-fluid mt-3">
+	<div class="row">
+		<div class="col-md-6 text-white text-center">
+			<img src="images/head.jpg" class="d-block" alt='...' height="150px" width="280px"></div>
+			<div class="col-md-6 mt-4 text-secondary text-center">
+			<div><h2>COVID-19 en Colombia</h2></div>
+				<h6 class="text-secondary">Datos reportados por el Ministerio de Salud y Protección Social</h6>			
+		</div>
+	</div><br>
+
+<div class="container">
+	<div class="row">
+
+				<div class="col-md-4"><div class="card">
+	            <div class="card-header text-center">
+	            <h5>Información por departamento</h5></div>    
+	            <div class="card-body mt-3"><div class="form-group">
+	            <h5 class="text-center text-secondary">Colombia</h5>
+	            <h6 class="text-center text-secondary">Inicio de Cuarentena: 24 de marzo</h6><br>
+	            <h6 class="text-center text-secondary">Consultar departamento</h6>
+				<div id="departamento"></div>
+	            <div class="text-right mr-4"> <button type="button" id="btn1" onclick="dpt()" class="btn btn-secondary mt-2 ">Consultar</button></div></div></div></div></div>
+
+
+	            <div class="col-md-4"><div class="card">
+	            <div class="card-header text-center">
+	            <h5>Información por ciudad</h5></div>    
+	            <div class="card-body mt-2"><div class="form-group">
+	            <h6 class="text-center text-secondary">Seleccione el Departamento</h6>
+	        	<div id="departamento1"></div>
+	            <h6 class="text-center text-secondary">Consultar ciudad</h6>
+	        	<div id="munici"><select class="form-control" id="ciudad" name="ciudad" disabled>
+	            <option  v-for="ciudad of ciudades" v-bind:value="ciudad">CIUDAD</option></select></div>
+	            <div class="text-right mr-4"> <button type="button" id="btn2" onclick="cdd()" class="btn btn-secondary mt-2 ">Consultar</button></div></div></div></div></div>
+
+
+	            <div class="col-md-4"><div class="card">
+	            <div class="card-header text-center">
+	            <h5>Información nacional</h5></div>    
+	            <div class="text-center"><img src="images/colombia.png" class="text-center" alt="..." height="179px" width="179px"></div>
+	            <div class="text-right mr-4"> <button type="button" onclick="nal()" class="btn btn-secondary mt-3 mb-2">Consultar</button></div><br></div></div>
+	
+
+	</div>
+</div>
+
+				  
+
+	      
+
+
+
+<br><br>
+<div class="container">
+<div id="departament"></div></div>
+
+
+<br><br>
+<div class="container">
+
+
+
+
+
+
+
+
+<div  id="footer" class="container-fluid mt-3 ">
+		<div class="text-secondary text-center">
+			Matilde Alexandra Arevalo León | matildealexandraal@ufps.edu.co		
+		</div>
+	</div><br>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

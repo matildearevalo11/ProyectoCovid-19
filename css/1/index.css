@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document 
+ * author: @CleiverFossi
+ * Version: 2
+ * Modificado por : Marco Adarme
+ */
+
+
+body{
+	width:961px;
+	font-size:16px;
+	font-family: Helvetica, Arial;
+	padding:0px;
+	margin:0 auto;
+	overflow:auto;
+
+}
+h1,h2,h3,h4{ 
+	color:#c31111; 
+	margin:0;
+}
+p{
+	margin:0;
+	text-align:justify;
+}
+a{
+	text-decoration:none;
+	color:#e08282; 
+}
+a:hover{
+	color:#c31111;
+}
+table{
+	background:#e08282; 
+	overflow:hidden;
+	border-collapse:collapse; 
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+} 
+table th{
+	color:#FFF;
+	text-align:center;
+	padding:10px 10px;
+	background-color:#c00;
+	height:20px;
+}
+
+
+
+table tr:nth-child(even) {/* css3 */ 
+
+ 	color:#fff;
+	background:#e08282; 
+	text-align: center;
+}
+table tr:nth-child(odd) {/* css3 */
+	background: #fff;
+	text-align: center;
+}
+table tr:hover{
+	color:#fff;
+	background-color:#900;
+	text-align: center;
+}
+
+table tr{
+	text-align: center;
+}
+
+form{
+	display:block;
+	width:400px;
+	padding:10px;
+	border:2px solid #CCC;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+}
+form h1, .form h2, .form h3{ 
+	color:#c00; 
+}
+form label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+form span{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+form input ,form textarea,form select{
+	background-color:#f0f0f0;
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #e08282;
+	width:200px;max-width:200px;
+	margin:2px 0 20px 10px;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+}
+form input:focus, form textarea:focus,form select:focus{
+	background-color:#FFF;
+}
+input[type="submit"], input[type="button"], input[type="reset"]{
+	margin:2px 0 0px 10px;
+	background-color:#c00;
+	font-size:15px;
+	font-weight:bold;
+	float:right;
+	cursor:pointer;
+	width:auto;
+	padding:5px 10px;
+	color:#FFF;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c00));background: -moz-linear-gradient(top, white, #c00);/* css3 */ 
+}
+input[type="submit"]:hover , input[type="button"]:hover, input[type="reset"]:hover{
+	background-color:#e08282;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c00), to(white)); /* css3 */
+	background: -moz-linear-gradient(top, #c00, white); /* css3 */
+}
+input[type="radio"],input[type="checkbox"]{
+	clear:both;
+	margin-left:130px;
+	padding:0;
+	clear:both;
+	width:20px;
+	text-align:right;
+	clear:both;
+	height:15px;
+	margin-bottom:0px;
+}
+form .radio,form .checkbox{
+	line-height:20px;
+	margin-bottom:0px;
+	font-size:12px;
+	padding:4px 2px;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:15px;
+	width:200px;
+}
+
+#banner{
+	background-color:#ffffff;
+	background-image:url("http://www.madarme.co/portada-web.png");
+	background-position:bottom center;
+	
+	 height: 200px; 
+      width: auto; 
+       
+       background-size:contain;
+       background-repeat:no-repeat;
+
+	overflow:hidden;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+	
+}
+#banner .titulo{
+	margin:15px 0;
+	color:#c31111;
+	text-align:right;
+	margin-right:200px;
+	font-size:23px;
+	font-weight:bold;
+}
+#banner .subtitulo{
+	color:#c31111;
+	text-align:right;
+	margin-right:200px;
+	font-size:18px;
+	font-weight:normal;
+}
+
+#contenido{
+	border:2px solid #CCC;
+	background-color:#FFF;
+	margin:0 auto;
+	width:96%;
+	height:auto;
+	padding:15px;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+}
+#pie{
+	color:#FFF;
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:10px;
+	width:100%;
+	padding:20px 0;
+	text-align:center;
+	background-color:#e08282;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c00));background: -moz-linear-gradient(top, white, #c00); /* css3 */
+}
+#pie a{
+	color:#FFF;
+	text-decoration:none;
+}
+.center{
+	margin:0 auto;
+}
+.clear{
+	width:1px;
+	clear:both;
+}

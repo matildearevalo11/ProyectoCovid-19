@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document 
+ * author: @CleiverFossi
+ * Modificado por :
+ */
+
+#menu{
+	margin:4px auto;
+	width:100%;
+	height:40px;
+	text-align:center;
+}
+#menu a{
+	color:#FFF;
+	border:1px solid #c00;
+	background-color:#c00;
+	text-decoration:none;
+	display:inline-block;
+	height:38px;
+	padding:0 20px;
+	line-height:40px;
+	margin:0 5px;
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c00));background: -moz-linear-gradient(top, white, #c00); /* css3 */
+}
+#menu a:hover{
+	background-color:#e08282;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c00), to(white)); /* css3 */
+	background: -moz-linear-gradient(top, #c00, white); /* css3 */
+}
+
+/*----------------------------------*/
+
+#menu ul{
+	height:100%;
+	margin:0 auto;
+	padding:0;
+}
+#menu ul li{
+	margin:0px;
+	list-style-type:none;
+	float:left;
+}
+#menu ul li:hover ul{
+	display:block;
+}
+#menu ul li ul{
+	position: absolute;
+	display: none;
+}
+#menu ul li ul a{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	padding:0 10px;
+	margin:0;
+}
+
+#menu ul li ul li{
+	float:none;
+	margin-left:10px;
+}
