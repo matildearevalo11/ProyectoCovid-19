@@ -1,7 +1,7 @@
-![Pizzería](./images/cabecera.png)
+![Covid19](./images/head.jpg)
 # Título del proyecto:
 
-## Pizzería
+## COVID-19
 ***
 ### Índice
 1. [Características](#caracter-sticas-)
@@ -16,17 +16,19 @@
 
 #### Características:
 
-  - Proyecto con lectura de datos json a través de la API fecth JavaScript
+  - Proyecto con lectura de datos JSON a través de la API fecth JavaScript
   - Carga dinámica del JSON
-  - Archivo json con información de la pizzería: [ver](https://raw.githubusercontent.com/madarme/persistencia/main/pizza.json)
+  - Archivo JSON con información de los contagios: [ver](https://www.datos.gov.co/resource/gt2j-8ykr.json)
   - Utilización de Bootstrap como herramienta de diseño de la página
+  - Utilización de la API de Google Charts para el diseño de las tablas y los gráficos estadísticos
   
 ***
   #### Contenido del proyecto
-  - [index.html](https://gitlab.com/Wolf21/pizzeria/-/blob/master/index.html): Archivo principal de invocación a la lectura de JSON
-  - [opciones.html](https://gitlab.com/Wolf21/pizzeria/-/blob/master/html/opciones.html): Archivo con el proceso de selección de las propiedades de las pizzas
-  - [factura.html](https://gitlab.com/Wolf21/pizzeria/-/blob/master/html/factura.html): Archivo con el proceso de impresión de la factura de los pedidos
-  - [pizzeria.js](https://gitlab.com/Wolf21/pizzeria/-/blob/master/js/pizzeria.js): Archivo JS con el proceso de lectura del JSON y las funciones adicionales para la impresión de resultados
+  - [index.html](https://gitlab.com/matildealexandraal/covid19/-/blob/master/index.html): Archivo principal de invocación a la lectura de JSON
+  - [ref1.html](https://gitlab.com/matildealexandraal/covid19/-/blob/master/html/ref1.html): Archivo con el cálculo estadístico de sexo por departamentos 
+  - [ref2.html](https://gitlab.com/matildealexandraal/covid19/-/blob/master/html/ref2.html): Archivo con el cálculo estadístico de la fuente de contagio por ciudades
+  - [ref3.html](https://gitlab.com/matildealexandraal/covid19/-/blob/master/html/ref3.html): Archivo con el cálculo estadístico del número de casos por departamentos a nivel nacional
+  - [estadisticas.js](https://gitlab.com/matildealexandraal/covid19/-/blob/master/js/estadisticas.js): Archivo JS con el proceso de lectura del JSON y las funciones adicionales para la impresión de resultados
   
 
 ***
@@ -35,15 +37,12 @@
   - HTML5
   - JavaScript
   - Bootstrap
+  - Google Charts
     
-Usted puede ver el siguiente marco conceptual sobre introducción al JSON:
+Usted puede ver el siguiente marco conceptual sobre Google Charts:
 
-  - [Documento explicativo de JSON](https://www.json.org/json-es.html)
-
-Usted puede ver el siguiente marco conceptual sobre la API fetch:
-
-  - [Vídeo explicativo lectura con fetch()](https://www.youtube.com/watch?v=xqBvtvXh9Z4)
-  - [Gúia de Mozzilla JSON](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
+  - [API de Google Charts](https://developers.google.com/chart)
+  - [Vídeo explicativo funciones de Google Charts](https://www.youtube.com/watch?v=QRN91T8rqW4&feature=emb_logo)
   
 Usted puede ver el siguiente marco conceptual sobre Bootstrap:
 
@@ -52,7 +51,7 @@ Usted puede ver el siguiente marco conceptual sobre Bootstrap:
   ***
 #### IDE
 
-- El proyecto se desarrolla usando sublime text 3 
+- El proyecto se desarrolla usando Sublime Text 3 
 - Visor de JSON (http://jsonviewer.stack.hu/)
 
 ***
@@ -71,11 +70,10 @@ El software es necesario para ver la interacción por consola y depuración del 
 ***
 ### Demo
 
-Para ver el demo de la aplicación puede dirigirse a: [Pizzería](http://ufps21.madarme.co/Pizzeria/).
+Para ver el demo de la aplicación puede dirigirse a: [Covid19](http://ufps23.madarme.co/Covid19/).
 
 ***
-### Autores
-Proyecto desarrollado por: Jheyner Lobo (<jheyneralexanderld@ufps.edu.co>).
+### Autor
 
 Proyecto desarrollado por: Matilde Arévalo (<matildealexandraal@ufps.edu.co>).
 
