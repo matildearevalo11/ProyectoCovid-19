@@ -47,7 +47,10 @@ Usted puede ver el siguiente marco conceptual sobre Google Charts:
 Usted puede ver el siguiente marco conceptual sobre Bootstrap:
 
   - [Biblioteca multiplataforma de Bootstrap](https://getbootstrap.com/)
+  
+Usted puede ver el siguiente marco conceptual sobre la API fetch:
 
+  - [Vídeo explicativo lectura con fetch()](https://www.youtube.com/watch?v=xqBvtvXh9Z4)
   ***
 #### IDE
 
