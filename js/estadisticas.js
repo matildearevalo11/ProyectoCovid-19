@@ -280,8 +280,12 @@ return msg;
 
 function redireccionarDpto(msg){
 	var url='./html/ref1.html'+msg+''; 
-
+		if(msg=='?departamento=ninguno'){ confirm("El departamento seleccionado no es válido. Intente nuevamente.");
+	   		 location.reload();
+	    }
+	    else{
 	  location.href=url;
+	}
 }
 
 function dpt(){
