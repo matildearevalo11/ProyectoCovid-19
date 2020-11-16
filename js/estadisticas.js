@@ -15,7 +15,7 @@ async function leerJSON(url) {
 function mostrar(){
 
 			
-	var url="https://www.datos.gov.co/resource/gt2j-8ykr.json";
+	var url="https://martinmedinaruvian.github.io/json/covid19ColombiaMarzo.json";
 	leerJSON(url).then(datos=>{
 
 		menu(datos);
@@ -28,7 +28,7 @@ function mostrar(){
 function nacional(){
 
 	var msg="";		
-	var url="https://www.datos.gov.co/resource/gt2j-8ykr.json";
+	var url="https://martinmedinaruvian.github.io/json/covid19ColombiaMarzo.json";
 	leerJSON(url).then(datos=>{
 		//msg+=leerDepartamentos(datos);
 		//msg+=leerCiudades(datos);
@@ -43,7 +43,7 @@ function xDepartamentos(){
 
 	var msg="";		
 	
-	var url="https://www.datos.gov.co/resource/gt2j-8ykr.json";
+	var url="https://martinmedinaruvian.github.io/json/covid19ColombiaMarzo.json";
 	leerJSON(url).then(datos=>{
 		
 	var dpto=urlRef(0);
@@ -59,7 +59,7 @@ function xCiudades(){
 
 	var msg="";		
 	
-	var url="https://www.datos.gov.co/resource/gt2j-8ykr.json";
+	var url="https://martinmedinaruvian.github.io/json/covid19ColombiaMarzo.json";
 	leerJSON(url).then(datos=>{
 		
 	var cdd=urlRef(1);
@@ -216,7 +216,7 @@ function mostrarMun(){
 var msg="";
 var municipios="";
 var mc="";
-var url="https://www.datos.gov.co/resource/gt2j-8ykr.json";
+var url="https://martinmedinaruvian.github.io/json/covid19ColombiaMarzo.json";
 	leerJSON(url).then(datos=>{
 		municipios=leerCiudades(datos);
 		var id=seleccionMun("segundo");
